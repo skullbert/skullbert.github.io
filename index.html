@@ -96,30 +96,51 @@
 	<!-- Portfolio -->
 	<div id="work"></br>
 	<p><h4 class="text-center">Portfolio</h4></p>
-		<div class="card card-outline-secondary mb-3 text-center">
-		  <div class="card-block-outline">
-			<blockquote class="card-blockquote">
-			  <p><a href="http://smallbasic.com/program/?ZHZ393"><img class="portfolio-img" src="./luckynumber.png" alt="Linked image representing project"></a></p>
-			  <footer>Small Basic Lucky Number Guessing Game</footer>
-			</blockquote>
-		  </div>
-		</div>
-		<div class="card card-outline-secondary mb-3 text-center">
-		  <div class="card-block-outline">
-			<blockquote class="card-blockquote">
-			  <p><a href="github url"><img src="..." alt="Linked image representing project"></a></p>
-			  <footer>Name and description of project.</footer>
-			</blockquote>
-		  </div>
-		</div>
-		<div class="card card-outline-secondary mb-3 text-center">
-		  <div class="card-block-outline">
-			<blockquote class="card-blockquote">
-			  <p><a href="github url"><img src="..." alt="Linked image representing project"></a></p>
-			  <footer>Name and description of project.</footer>
-			</blockquote>
-		  </div>
-		</div>
+		<div id="accordion" role="tablist">
+  <div class="card">
+    <div class="card-header text-center" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="text-link">
+          Lucky Number Guessing Game - Small Basic
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body text-center">
+         <p><a href="http://smallbasic.com/program/?ZHZ393"><img class="portfolio-img" src="./luckynumber.png" alt="Linked image representing project"></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header text-center" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed text-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Project 2
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body text-center">
+        <p><a href="" src="" alt="Linked image representing project"></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header text-center" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed text-link" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Project 3
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body text-center">
+        <p><a href="" src="" alt="Linked image representing project"></a></p>
+      </div>
+    </div>
+  </div>
+</div>
 	</div>
 	<!-- /Portfolio -->
 	
