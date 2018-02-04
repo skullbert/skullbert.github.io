@@ -1,9 +1,9 @@
 .nav {
-	border-bottom: 1px solid #9ea38c;
+	border-bottom: 1px solid #776e6d;
 }
 
 #home {
-	background: url(./background.png) no-repeat 50% 50%;
+	background: url(./background.jpg) no-repeat 25% 25%;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -13,8 +13,8 @@
 	height: auto;
 	border-bottom: 1px dashed #fff;
 	padding-top: 250px;
-	font-family: "Lucida Handwriting", Helvetica, sans-serif;
-	color: #9ea38c;
+	font-family: 'Petit Formal Script', cursive, serif;
+	color: #776e6d;
 	text-shadow: 2px 2px 2px #454737;
 }
 
@@ -44,13 +44,16 @@ tr, td {
 }
 
 .linkedin-photo {
-	border: 2px double #9ea38c;
+	border: 2px double #bfc5aa;
+	height: 100px;
+	width: 100px;	
 }
 
 .linkedin-caption {
 	font-family: Helvetica, sans-serif;
 	color: #000;
 	font-size: .8em;
+	padding-top: 5px;
 }
 
 .portfolio-img {
@@ -61,6 +64,7 @@ tr, td {
 a.text-link:link {
 	font-family: Helvetica, sans-serif;
 	color: #000;
+	font-size: .95em;
 	text-decoration:none;
 }
 
