@@ -3,11 +3,8 @@
 }
 
 #home {
-	background: url(./background.png) no-repeat 25% 25%;	
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
+	background: url(./background-crop.png) no-repeat 10% 10%;	
+	background-attachment: fixed;	
 	width: 100%;
 	display: block;
 	height: auto;
