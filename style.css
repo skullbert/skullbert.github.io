@@ -12,15 +12,14 @@
 	display: block;
 	height: auto;
 	border-bottom: 1px dashed #fff;
-	padding-top: 250px;	
+	padding-top: 250px;
+	font-family: 'Petit Formal Script', cursive, serif;
+	color: #776e6d;	
+	text-shadow: 2px 2px 2px #454737;	
 }
 
-#name {
-	font-family: 'Petit Formal Script', cursive, serif;
-	color: #776e6d;
-	text-shadow: 2px 2px 2px #454737;
-	background-color: #fff;
-	opacity: .5;	
+#name {  
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5));
 }
 
 .card-block {
@@ -76,11 +75,9 @@ a.text-link:link {
 a.text-link:visited {
 	color: #bfc5aa;
 	text-decoration: none;
-
 } 
 
 a.text-link:hover {
 	color: #bfc5aa;
 	text-decoration: none;
-
 }
