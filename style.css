@@ -3,7 +3,7 @@
 }
 
 #home {
-	background: url(./background.jpg) no-repeat 25% 25%;
+	background: url(./background.png) no-repeat 25% 25%;	
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -12,10 +12,15 @@
 	display: block;
 	height: auto;
 	border-bottom: 1px dashed #fff;
-	padding-top: 250px;
+	padding-top: 250px;	
+}
+
+#name {
 	font-family: 'Petit Formal Script', cursive, serif;
 	color: #776e6d;
 	text-shadow: 2px 2px 2px #454737;
+	background-color: #fff;
+	opacity: .8;	
 }
 
 .card-block {
