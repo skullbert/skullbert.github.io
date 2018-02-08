@@ -29,6 +29,10 @@
 	text-align: center;
 }
 
+.card-title-box:hover{
+	font-family: 'Petit Formal Script',cursive,serif;
+}
+
 tr, td {
 	padding: 5px;
 }
